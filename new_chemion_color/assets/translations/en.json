@@ -55,7 +55,6 @@
   "disconnect": "Disconnect",
   "connect": "Connect",
   "toast_connect": "Connected to\n%s.",
-  "toast_disconnect": "Disconnected from Chemion device",
   "toast_secure": "Security set\non%s. Other connection is not allowed before turning off setting.",
   "toast_logout": "Loged out from\nCHEMION app.",
   "button_connect_device": "Connect",
@@ -115,5 +114,7 @@
   "no_connected_device": "There are no connected device",
   "exit_app": "Press again to exit",
   "permission_location": "Bluetooth connection is possible only if you agree to the location grant",
-  "internet_connect": "Please check the Internet connection."
+  "internet_connect": "Please check the Internet connection.",
+  "toast_disconnect": "Disconnected from\nChemion.",
+  "frame_limit": "The number of frames\n is limited to 20."
 }

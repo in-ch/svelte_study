@@ -55,7 +55,7 @@
   "disconnect": "연결해제",
   "connect": "연결",
   "toast_connect": "%s에\n연결되었습니다.",
-  "toast_disconnect": "케미온 장비에 연결이 해제되었습니다.",
+  "toast_disconnect": "케미온에\n연결이 해제되었습니다.",
   "toast_secure": "%s에 보안 설정이\n완료되었습니다. 해제 전까지 다른 기기에서 접속되지 않습니다.",
   "toast_logout": "CHEMION APP에 로그아웃\n되었습니다.",
   "button_connect_device": "기기 연결하기",
@@ -119,5 +119,6 @@
   "no_connected_device": "연결된 장비가 없습니다.",
   "exit_app": "뒤로 버튼을 한 번 더 누르면 앱이 종료됩니다.",
   "permission_location": "위치 정보에 동의해야 블루투스 연결이 가능합니다.",
-  "internet_connect": "인터넷 연결을 확인해주세요."
+  "internet_connect": "인터넷 연결을 확인해주세요.",
+  "frame_limit": "20개까지 프레임 수가 제한됩니다."
 }

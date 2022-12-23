@@ -1,0 +1,15 @@
+// ignore_for_file: constant_identifier_names, camel_case_types
+
+enum DIY_CONTROL_TYPE {
+  TYPE_REVERSE,
+  TYPE_FRAME_ADD,
+  TYPE_MOVE_LEFT,
+  TYPE_MOVE_RIGHT,
+  TYPE_MOVE_TOP,
+  TYPE_MOVE_BOTTOM,
+  TYPE_FRAME_COPY,
+  TYPE_FRAME_PASTE,
+  TYPE_FRAME_DELETE,
+  TYPE_FRAME_RESET,
+  TYPE_ADD_NEW_FRAME
+}
