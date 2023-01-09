@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/src/simple/get_view.dart';
 import 'package:easy_localization/easy_localization.dart';
 
-import 'package:new_chemion_color/app/modules/preview/controller.dart';
-import 'package:new_chemion_color/app/modules/preview/widgets/widgets.dart';
+import 'package:new_chemion_color/app/modules/splash/widgets/widgets.dart';
 import 'package:new_chemion_color/app/widgets/widgets.dart';
+import 'package:new_chemion_color/app/modules/splash/controller.dart';
 import 'package:new_chemion_color/app/data/models/models.dart';
 import 'package:new_chemion_color/core/theme/app_colors.dart';
 import 'package:new_chemion_color/routes/pages.dart';
 
-class PreviewScreen extends GetView<PreviewController> {
-  const PreviewScreen({Key? key}) : super(key: key);
+class SplashScreen extends GetView<SplashController> {
+  const SplashScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
