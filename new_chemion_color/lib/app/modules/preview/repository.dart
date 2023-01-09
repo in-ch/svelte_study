@@ -4,5 +4,4 @@ class PreviewRepository {
   final MyApi api;
 
   PreviewRepository(this.api);
-  // getFeeds() => api.getFeeds();
 }

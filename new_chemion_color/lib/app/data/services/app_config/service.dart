@@ -6,16 +6,18 @@ import 'package:flutter_ble_lib_ios_15/flutter_ble_lib.dart';
 import 'package:android_intent/android_intent.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:new_chemion_color/app/data/enums/enums.dart';
 import 'package:new_chemion_color/app/data/provider/api.dart';
 import 'package:new_chemion_color/app/data/models/models.dart';
 import 'package:new_chemion_color/app/data/services/app_config/repository.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class AppConfigService extends GetxService {
   late AppConfigRepository repository;
   late GetStorage box;
+
+  bool grant = false; // 블루투스 권한, 위치 기반 권한 등
 
   List<BleDeviceItem> connectedList = []; //연결 중인 장치
   List<BleDeviceItem> deviceList = []; // BLE 장치 리스트 변수
@@ -34,6 +36,10 @@ class AppConfigService extends GetxService {
     repository = AppConfigRepository(MyApi());
     box = GetStorage();
     return this;
+  }
+
+  void setPermissionStatus(bool isGranted) {
+    grant = isGranted;
   }
 
   /// 블루투스가 꺼져있는지 체크한다.

@@ -11,6 +11,7 @@ import 'package:new_chemion_color/routes/pages.dart';
 
 class PreviewScreen extends GetView<PreviewController> {
   const PreviewScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
