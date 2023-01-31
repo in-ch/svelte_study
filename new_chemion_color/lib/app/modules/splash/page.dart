@@ -12,6 +12,17 @@ import 'package:new_chemion_color/routes/pages.dart';
 class SplashScreen extends GetView<SplashController> {
   const SplashScreen({Key? key}) : super(key: key);
 
+  void initState() {
+    print("에휴");
+    print("에휴");
+    print("에휴");
+    print("에휴");
+    print("에휴");
+    print("에휴");
+    print("에휴");
+    print("에휴");
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
